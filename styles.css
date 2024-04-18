@@ -1,0 +1,125 @@
+
+:root{
+ --Dark-cyan: hsl(158, 36%, 37%);
+ --Cream: hsl(30, 38%, 92%);
+ --Very-dark-blue: hsl(212, 21%, 14%);
+ --Dark-grayish-blue: hsl(228, 12%, 48%);
+ --White: hsl(0, 0%, 100%);
+}
+body{
+    font-size:14px;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color:var(--Cream);
+    
+}
+main{
+    display:flex;
+    width:600px;
+    height:auto;
+    background-color:var(--White);
+    margin:200px auto;
+    border-radius:1rem;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+}
+
+h1{ 
+    font-family: "Fraunces", serif;
+    font-size:2.1rem;
+    color:var(--Very-dark-blue);
+}
+
+p{
+    color:var(--Dark-grayish-blue);
+    line-height:1.5;
+}
+
+.product-img{
+    flex-basis:55%;
+}
+
+.desktop-img{
+    width:100%;
+    height:auto;
+}
+
+.mobile-img{
+    display:none;
+    width:100%;
+}
+
+.product-description{
+    padding:10px 30px;
+    flex-basis:45%;
+    }
+
+.perfume{
+    text-transform: uppercase;
+    letter-spacing:0.1rem;
+}
+
+.price{
+    margin:20px 0;
+}
+
+.discount-price{
+    font-family: "Fraunces", serif;
+    font-size:2.1rem;
+    color:var(--Dark-cyan);
+}
+
+.original-price{
+color:var(--Dark-grayish-blue);
+text-decoration: line-through;
+margin-left:20px;
+
+}
+
+button{
+    width:95%;
+    background-color:var(--Dark-cyan);
+    color:var(--White);
+    font-weight:700;
+    border:none;
+    padding:12px;
+    border-radius:0.5rem;
+}
+button:hover{
+    cursor:pointer;
+    filter: brightness(0.8);
+}
+.cart{
+    margin-right:10px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 768px){
+    body{
+        padding:20px 15px;
+    }
+    main{
+        flex-direction:column; 
+        width:100%;   
+        margin:0 0 50px 0;
+    }
+    .mobile-img{
+        display:block;
+    }
+    .desktop-img{
+        display:none;
+    }
+    .product-description{
+        padding:25px;
+    }
+}
