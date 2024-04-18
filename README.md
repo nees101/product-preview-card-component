@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [nees101/FrontendMentor](https://www.frontendmentor.io/solutions/qr-code-component-using-html-and-css-kzEiqeINon)
-- Live Site URL: [nees101/github](https://nees101.github.io/QR-Code-Component/)
+- Solution URL: [nees101/FrontendMentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card-with-html-and-css-LwYFy3ZYI8)
+- Live Site URL: [nees101/github](https://nees101.github.io/product-preview-card-component/)
 
 ## My process
 
